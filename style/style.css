@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: linear-gradient(to bottom left, #c45a14, #9f40c5);
+    background: linear-gradient(to bottom, #ffffff, #999999fd);
 }
 
 .container {
@@ -22,14 +22,16 @@ body {
 }
 
 header {
-    background-color: #333333ab;
-    color: #fff;
+    background: linear-gradient(to , #ffffff62, #7f449677);
+    color: #000000;
+    display: flex;
+    justify-content: center;
 }
 
 
 .nadpis{
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 header nav ul {
@@ -46,7 +48,7 @@ header nav ul li {
 
 header nav ul li a {
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
 }
 
 .cart{
@@ -58,7 +60,7 @@ main .hero {
     background-image: url('hero.jpg');
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #000000;
     padding: 100px 0;
     text-align: center;
 }
@@ -81,7 +83,7 @@ main .container2{
 .btn {
     display: inline-block;
     background-color: #333;
-    color: #fff;
+    color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -128,7 +130,7 @@ main .container2{
 .lol h2{
     display: flex;
     justify-content: center;
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: underline;
 }
 
@@ -140,5 +142,5 @@ main .container2{
 footer{
     display: flex;
     justify-content: center;
-    background-color: #333333ab;
+    background: linear-gradient(to , #ffffff62, #8714b477);
 }
