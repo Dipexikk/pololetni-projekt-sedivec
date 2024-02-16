@@ -24,10 +24,8 @@ body {
 header {
     background-color: white;
     color: #000000;
-    justify-content: center;
     position: absolute;
     width: 100%;
-    padding-bottom: 10px;
     padding-top: 5px;
     position: fixed;
     top: 0px;
@@ -36,12 +34,26 @@ header {
     display: flex;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     transition: top 0.5s ease-in-out;
+    
 }
 
+header img{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: left;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .nadpis{
     display: flex;
     justify-content: center;
+    margin-right: 540px;
 }
 
 header nav ul {
@@ -51,7 +63,6 @@ header nav ul {
 }
 
 header nav ul li {
-    display: inline;
     margin-right: 20px;
 
 }
@@ -59,11 +70,8 @@ header nav ul li {
 header nav ul li a {
     text-decoration: none;
     color: #000000;
-}
-
-.cart{
     display: flex;
-    justify-content: right;
+    justify-content: center;
 }
 
 main .hero {
@@ -152,5 +160,44 @@ main .container2{
 footer{
     display: flex;
     justify-content: center;
-    background-color: #333;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(100, 100, 100);
+    padding: 6px;
+    margin: -10px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: left;
+    max-width: 100%;
+    padding: 20px;
+    color: white;
+
+}
+
+.icons{
+    margin: 24px;
+}
+
+svg{
+    transition: .4s ease;
+    margin: 0 12px;
+}
+
+svg:hover{
+    fill: rgb(141, 141, 141);
+    transform: scale(1.3);
+}
+
+.har{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.column{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -15px;
 }
