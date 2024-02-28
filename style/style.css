@@ -83,6 +83,15 @@ main .hero {
     text-align: center;
 }
 
+.hero-button{
+    transition: 1s;
+}
+
+.hero-button:hover{
+    transform: scale(1.3);
+    z-index: 2;
+}
+
 main .hero h2 {
     font-size: 3em;
     margin-bottom: 20px;
@@ -158,6 +167,10 @@ main .container2{
     margin-bottom: 20px;
 }
 
+main{
+    min-height: 71vh;
+}
+
 footer{
     display: flex;
     justify-content: center;
@@ -165,7 +178,7 @@ footer{
     align-items: center;
     background-color: rgb(100, 100, 100);
     padding: 6px;
-    margin: 0px;
+    margin: 0px;   
 }
 
 footer .container{
@@ -202,3 +215,20 @@ svg:hover{
     justify-content: space-between;
     margin-bottom: -15px;
 }
+
+
+
+.kontakty-h{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    flex: 1;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+
